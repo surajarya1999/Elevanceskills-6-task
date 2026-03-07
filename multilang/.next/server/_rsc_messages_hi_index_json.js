@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "_rsc_messages_hi_index_json";
+exports.ids = ["_rsc_messages_hi_index_json"];
+exports.modules = {
+
+/***/ "(rsc)/./messages/hi/index.json":
+/*!********************************!*\
+  !*** ./messages/hi/index.json ***!
+  \********************************/
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"nav":{"home":"होम","about":"हमारे बारे में","contact":"संपर्क"},"home":{"title":"हमारे प्लेटफ़ॉर्म पर आपका स्वागत है","subtitle":"दुनिया के लिए बनाया गया — 6 भाषाओं में उपलब्ध।","cta":"शुरू करें","langsTitle":"समर्थित भाषाएं"},"about":{"title":"हमारे बारे में","subtitle":"हम सभी के लिए एक प्लेटफ़ॉर्म बना रहे हैं।","missionTitle":"हमारा मिशन","missionText":"भाषा कभी बाधा नहीं होनी चाहिए। हमने यह प्लेटफ़ॉर्म बनाया ताकि हर उपयोगकर्ता घर जैसा महसूस करे।","teamTitle":"टीम से मिलें"},"contact":{"title":"संपर्क करें","subtitle":"कोई सवाल है?","nameLabel":"पूरा नाम","emailLabel":"ईमेल","messageLabel":"संदेश","submit":"संदेश भेजें","sending":"भेज रहे हैं...","successTitle":"संदेश भेजा गया!","successText":"हम 24 घंटे में जवाब देंगे।"},"language":{"select":"भाषा चुनें"},"otp":{"title":"अपना ईमेल सत्यापित करें","desc":"फ्रेंच में बदलने के लिए ईमेल दर्ज करें।","emailLabel":"ईमेल पता","sendCode":"कोड भेजें","sending":"भेज रहे हैं...","codeLabel":"6-अंकीय कोड","verify":"सत्यापित करें","verifying":"सत्यापित हो रहा है...","resend":"दोबारा भेजें","resendIn":"{seconds}s में दोबारा भेजें","cancel":"रद्द करें","codeSentTo":"{email} पर कोड भेजा","success":"भाषा फ्रेंच में बदल दी गई!"}}');
+
+/***/ })
+
+};
+;

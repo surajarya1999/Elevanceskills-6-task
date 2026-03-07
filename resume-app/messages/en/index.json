@@ -1,0 +1,46 @@
+{
+  "nav": { "home": "Home", "resume": "Resume Builder" },
+  "home": { "title": "Student Internship Portal", "subtitle": "Build your professional resume and apply for internships.", "cta": "Create Resume", "premium": "Premium Feature", "price": "₹50 per resume" },
+  "resume": {
+    "title": "Resume Builder",
+    "subtitle": "Fill in your details to generate a professional resume",
+    "steps": { "form": "Fill Details", "otp": "Verify Email", "payment": "Pay ₹50", "preview": "Your Resume" },
+    "form": {
+      "personal": "Personal Information",
+      "name": "Full Name", "email": "Email Address", "phone": "Phone Number", "address": "Address",
+      "photo": "Profile Photo", "photoHint": "Upload a professional photo",
+      "objective": "Career Objective",
+      "education": "Education", "addEducation": "Add Education",
+      "degree": "Degree/Course", "institution": "Institution", "year": "Year", "percentage": "Percentage/CGPA",
+      "experience": "Work Experience", "addExperience": "Add Experience",
+      "company": "Company", "role": "Role/Position", "duration": "Duration", "description": "Description",
+      "skills": "Skills", "addSkill": "Add Skill", "skillPlaceholder": "e.g. React, Python...",
+      "certifications": "Certifications", "addCertification": "Add Certification",
+      "next": "Proceed to Verify & Pay →",
+      "required": "This field is required"
+    },
+    "otp": {
+      "title": "Verify Your Email",
+      "desc": "We'll send an OTP to verify before payment of ₹50",
+      "send": "Send OTP", "sending": "Sending...",
+      "verify": "Verify OTP", "verifying": "Verifying...",
+      "resend": "Resend", "resendIn": "Resend in {seconds}s",
+      "codeSentTo": "OTP sent to {email}",
+      "cancel": "Cancel"
+    },
+    "payment": {
+      "title": "Complete Payment",
+      "desc": "Pay ₹50 to generate your professional resume",
+      "amount": "₹50", "feature": "Professional Resume PDF",
+      "pay": "Pay ₹50 with Razorpay",
+      "processing": "Processing...",
+      "secure": "100% Secure Payment via Razorpay"
+    },
+    "preview": {
+      "title": "Your Resume is Ready! 🎉",
+      "download": "Download PDF",
+      "print": "Print Resume",
+      "new": "Create New Resume"
+    }
+  }
+}
