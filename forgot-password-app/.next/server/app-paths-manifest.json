@@ -1,0 +1,6 @@
+{
+  "/api/send-otp/route": "app/api/send-otp/route.js",
+  "/api/verify-otp/route": "app/api/verify-otp/route.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/forgot-password/page": "app/[locale]/forgot-password/page.js"
+}
