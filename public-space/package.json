@@ -11,7 +11,7 @@
     "@reduxjs/toolkit": "^2.2.7",
     "cloudinary": "^2.4.0",
     "mongoose": "^8.5.1",
-    "next": "^16.1.6",
+    "next": "^15.1.0",
     "next-cloudinary": "^6.9.0",
     "next-intl": "^3.17.2",
     "react": "^18",
