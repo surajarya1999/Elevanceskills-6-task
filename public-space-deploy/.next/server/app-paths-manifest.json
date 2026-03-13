@@ -1,0 +1,5 @@
+{
+  "/feed/page": "app/feed/page.js",
+  "/api/posts/share/route": "app/api/posts/share/route.js",
+  "/api/posts/like/route": "app/api/posts/like/route.js"
+}
