@@ -2,11 +2,12 @@ import { NextRequest, NextResponse } from "next/server";
 import { connectDB } from "@/lib/mongodb";
 import Post from "@/models/Post";
 
-export async function POST(req: NextRequest, { params }: { params: { id: string } }) {
+export async function POST(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
     await connectDB();
+    const { id } = await params;
     const post = await Post.findByIdAndUpdate(
-      params.id,
+      id,
       { $inc: { shares: 1 } },
       { new: true }
     );

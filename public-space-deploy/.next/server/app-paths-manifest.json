@@ -1,5 +1,8 @@
 {
-  "/feed/page": "app/feed/page.js",
-  "/api/posts/share/route": "app/api/posts/share/route.js",
-  "/api/posts/like/route": "app/api/posts/like/route.js"
+  "/api/users/route": "app/api/users/route.js",
+  "/api/posts/route": "app/api/posts/route.js",
+  "/api/users/seed/route": "app/api/users/seed/route.js",
+  "/api/posts/like/route": "app/api/posts/like/route.js",
+  "/page": "app/page.js",
+  "/feed/page": "app/feed/page.js"
 }

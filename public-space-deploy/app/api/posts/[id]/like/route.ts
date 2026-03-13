@@ -3,18 +3,19 @@ import { connectDB } from "@/lib/mongodb";
 import Post from "@/models/Post";
 import mongoose from "mongoose";
 
-export async function POST(req: NextRequest, { params }: { params: { id: string } }) {
+export async function POST(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
     await connectDB();
+    const { id } = await params;
     const { userId } = await req.json();
-    const post = await Post.findById(params.id);
+    const post = await Post.findById(id);
     if (!post) return NextResponse.json({ success: false, message: "Post not found" }, { status: 404 });
 
     const uid = new mongoose.Types.ObjectId(userId);
-    const alreadyLiked = post.likes.some((id) => id.equals(uid));
+    const alreadyLiked = post.likes.some((id: mongoose.Types.ObjectId) => id.equals(uid));
 
     if (alreadyLiked) {
-      post.likes = post.likes.filter((id) => !id.equals(uid)); // unlike
+      post.likes = post.likes.filter((pid: mongoose.Types.ObjectId) => !pid.equals(uid)); // unlike
     } else {
       post.likes.push(uid); // like
     }
