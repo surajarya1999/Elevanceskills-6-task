@@ -1,7 +1,0 @@
-/node_modules
-/dist
-/logs
-/coverage
-.DS_Store
-.env
-.next
